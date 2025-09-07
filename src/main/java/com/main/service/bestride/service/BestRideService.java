@@ -5,6 +5,6 @@ import reactor.core.publisher.Flux;
 
 public interface BestRideService {
 
-    Flux<FareDetails> getAllFares(String origin, String destination);
+    Flux<FareDetails> getAllFares(String origin, String destination, Integer pincode, Double distance);
 
 }
