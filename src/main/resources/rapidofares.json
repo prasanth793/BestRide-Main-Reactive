@@ -1,0 +1,120 @@
+{
+    "_id" : ObjectId("68a2cf7b7d5b99108bfb8da2"),
+    "city" : "Hyderabad",
+    "zone" : "West",
+    "pincode_start" : 500075,
+    "pindode_end" : 500100,
+    "price_calculator" : [
+        {
+            "startTime" : 8,
+            "endTime" : 12,
+            "price" : 40
+        },
+        {
+            "startTime" : 13,
+            "endTime" : 17,
+            "price" : 25
+        },
+        {
+            "startTime" : 18,
+            "endTime" : 23,
+            "price" : 60
+        },
+        {
+            "startTime" : 0,
+            "endTime" : 7,
+            "price" : 15
+        }
+    ],
+    "code" : "HW"
+}
+{
+    "_id" : ObjectId("68a2cf7b7d5b99108bfb8da3"),
+    "city" : "Hyderabad",
+    "zone" : "North",
+    "pincode_start" : 500000,
+    "pindode_end" : 500024,
+    "price_calculator" : [
+        {
+            "startTime" : 8,
+            "endTime" : 12,
+            "price" : 50
+        },
+        {
+            "startTime" : 13,
+            "endTime" : 17,
+            "price" : 30
+        },
+        {
+            "startTime" : 18,
+            "endTime" : 23,
+            "price" : 60
+        },
+        {
+            "startTime" : 0,
+            "endTime" : 7,
+            "price" : 15
+        }
+    ],
+    "code" : "HN"
+}
+{
+    "_id" : ObjectId("68a2cf7b7d5b99108bfb8da4"),
+    "city" : "Hyderabad",
+    "zone" : "East",
+    "pincode_start" : 500050,
+    "pindode_end" : 500074,
+    "price_calculator" : [
+        {
+            "startTime" : 8,
+            "endTime" : 12,
+            "price" : 8
+        },
+        {
+            "startTime" : 13,
+            "endTime" : 17,
+            "price" : 9
+        },
+        {
+            "startTime" : 18,
+            "endTime" : 23,
+            "price" : 15
+        },
+        {
+            "startTime" : 0,
+            "endTime" : 7,
+            "price" : 8
+        }
+    ],
+    "code" : "HE"
+}
+{
+    "_id" : ObjectId("68a2cf7b7d5b99108bfb8da5"),
+    "city" : "Hyderabad",
+    "zone" : "South",
+    "pincode_start" : 500025,
+    "pindode_end" : 500049,
+    "price_calculator" : [
+        {
+            "startTime" : 8,
+            "endTime" : 12,
+            "price" : 10
+        },
+        {
+            "startTime" : 13,
+            "endTime" : 17,
+            "price" : 5
+        },
+        {
+            "startTime" : 18,
+            "endTime" : 23,
+            "price" : 12
+        },
+        {
+            "startTime" : 0,
+            "endTime" : 7,
+            "price" : 5
+        }
+    ],
+    "code" : "HS"
+}

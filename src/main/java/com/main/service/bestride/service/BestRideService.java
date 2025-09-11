@@ -7,4 +7,6 @@ public interface BestRideService {
 
     Flux<FareDetails> getAllFares(String origin, String destination, Integer pincode, Double distance);
 
+    Flux<FareDetails> getLiveFaresWithUpdatedCost(String origin, String destination, Integer pincode, Double distance);
+
 }

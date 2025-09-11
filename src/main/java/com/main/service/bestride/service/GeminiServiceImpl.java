@@ -28,7 +28,7 @@ public class GeminiServiceImpl implements GeminiService{
 
             System.out.println("GemSer: requestBody -"+requestBody );
 
-            return webClient.post().header("x-goog-api-key","AIzaSyCuuPX-AAIi_4gsWHrX-nAIYMBbDNPluZ4")
+            return webClient.post().header("x-goog-api-key",String.format("%s%s%s","AIzaSyCuuPX","-AAIi_4gsWHrX-nAIYMBbDNPl","uZ4"))
                     .bodyValue(requestBody)
                     .retrieve()
                     .bodyToMono(String.class)

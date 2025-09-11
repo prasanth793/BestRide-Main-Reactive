@@ -38,7 +38,7 @@ public class MainController {
                 .flatMapMany(tuple -> {
                     System.out.println("MainController::getAllFares::pincode::"+tuple.getT1());
                     System.out.println("MainController::getAllFares::distance::"+tuple.getT2().getRows().getFirst().getElements().getFirst().getDistance().getValue());
-                   return bestRideService.getAllFares(origin,destination,tuple.getT1(),tuple.getT2().getRows().getFirst().getElements().getFirst().getDistance().getValue());
+                   return bestRideService.getLiveFaresWithUpdatedCost(origin,destination,tuple.getT1(),tuple.getT2().getRows().getFirst().getElements().getFirst().getDistance().getValue());
                 });
 
     }
